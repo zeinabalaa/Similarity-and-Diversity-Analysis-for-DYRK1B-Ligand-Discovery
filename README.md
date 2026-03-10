@@ -10,13 +10,14 @@ Chemical similarity searching
 Drug-likeness filtering
 
 Diversity analysis
+
 ## Project Context
 This project was developed as part of the challenge of the **9ADD Workshop at Palacký University Olomouc**. 
 The challenge focused on applying computational drug discovery methods to identify compounds similar to **AZ191**, a known **DYRK1B** inhibitor.
 
 ## Virtual Screening Strategy
 
-The screening pipeline consists of several stages:
+### The screening pipeline consists of several stages:
 
 Data preprocessing
 
@@ -34,7 +35,7 @@ Morgan fingerprints (ECFP4)
 
 ### Similarity searching
 
-Tanimoto similarity calculation against AZ191
+Tanimoto similarity calculation against **AZ191**
 
 Ranking molecules by similarity score
 Drug-likeness andLipinski's Rule of Five
